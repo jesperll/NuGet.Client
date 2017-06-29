@@ -386,9 +386,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\packageicon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -473,16 +470,11 @@
   <ItemGroup>
     <Resource Include="Resources\StatusOK_32x.png" />
     <Resource Include="Resources\StatusStop_32x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Refresh_grey_16x.png" />
     <Resource Include="Resources\Refresh_inverse_16x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Refresh.16.16.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\StatusInformation_16x.png" />
+    <Resource Include="Resources\packageicon.png" />
   </ItemGroup>
   <Import Project="$(BuildCommonDirectory)common.targets" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
