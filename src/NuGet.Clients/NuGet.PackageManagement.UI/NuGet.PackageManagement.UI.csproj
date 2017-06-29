@@ -474,7 +474,8 @@
     <Resource Include="Resources\Refresh_inverse_16x.png" />
     <Resource Include="Resources\Refresh.16.16.png" />
     <Resource Include="Resources\StatusInformation_16x.png" />
-    <Resource Include="Resources\packageicon.png" />
+    <Resource Include="Resources\Regular\packageicon.png" />
+    <Resource Include="Resources\Inverted\packageicon.png" />
   </ItemGroup>
   <Import Project="$(BuildCommonDirectory)common.targets" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

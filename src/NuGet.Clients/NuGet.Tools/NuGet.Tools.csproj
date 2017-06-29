@@ -119,10 +119,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\nuget_256.png">
+    <Content Include="Resources\Regular\nuget_96.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\nuget_96.png">
+    <Content Include="Resources\Regular\nuget_256.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inverted\nuget_96.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Inverted\nuget_256.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <VSCTCompile Include="NuGetTools.vsct">
